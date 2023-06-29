@@ -1,0 +1,11 @@
+.introduceName {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  word-break: keep-all;
+  line-height: 1.2;
+}
+
+.introduceSelf {
+}
