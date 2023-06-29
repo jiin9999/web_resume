@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Introduce() {
   return (
-    <section>
+    <section className={styles.card}>
       <h2 className={styles.introduceName}>
         안녕하세요, <br />
         <b>프론트엔드 개발자 천지인</b>입니다.

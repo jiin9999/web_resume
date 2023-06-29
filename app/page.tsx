@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.mainContainer}>
       <Introduce />
-      <Project />
+      {/* <Project /> */}
     </main>
   )
 }

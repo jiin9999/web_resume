@@ -1,6 +1,6 @@
 :root {
-  --color-background: white;
   --color-text: black;
+  --color-background: white;
 }
 
 [data-theme="dark"] {
@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: var(--color-background);
+  background: var(--color-background);
   color: var(--color-text);
   transition: 0.5s ease;
 }

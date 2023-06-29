@@ -1,5 +1,7 @@
 "use client"
+
 import { useEffect, useState } from "react"
+import styles from "./css/HeaderModeButton.module.css"
 
 export default function HeaderModeButton() {
   const [theme, setTheme] = useState<string>()
@@ -20,5 +22,16 @@ export default function HeaderModeButton() {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"))
   }
 
-  return <button onClick={toggleTheme}>asdf</button>
+  return (
+    <button
+      className={`${styles.toggleButton} ${
+        theme === "dark" ? styles.darkMode : ""
+      }`}
+      onClick={toggleTheme}
+    >
+      <div className={styles.toggleBackground}>
+        <span className={styles.toggleCircle}></span>
+      </div>
+    </button>
+  )
 }
