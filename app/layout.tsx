@@ -1,7 +1,6 @@
 import "./reset.css"
 import "./global.css"
 import localFont from "next/font/local"
-import Header from "./components/Header"
 
 const globalFont = localFont({
   src: "/font/PretendardVariable.woff2",
@@ -19,10 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className={globalFont.className}>
-      <body>
-        <Header />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
