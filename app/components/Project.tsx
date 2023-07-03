@@ -9,6 +9,7 @@ export default function Project() {
     <section className={`${card.cardContainer} ${card.card}`}>
       <h2 className={styles.project}>프로젝트</h2>
       <h3 className={styles.projectTitle}>Window 98 Todo Web</h3>
+      <p className={styles.projectPeriod}>2023.03 ~ </p>
       <div className={styles.projectImage}>
         {/* Todo: 아래 이미지 태그는 캐러셀로 바꾸기! */}
         <Image
@@ -62,6 +63,71 @@ export default function Project() {
       {/* <h3>쓰쓰또쓰</h3>
       <div>2023.05 ~ 2023.05</div> */}
       {/* <Image src=""></Image> */}
+
+      <h3 className={styles.projectTitle}>쓰레기 재활용 커뮤니티</h3>
+      <p className={styles.projectPeriod}>2023.05 ~ 2023.05</p>
+      <div className={styles.projectImage}>
+        {/* Todo: 아래 이미지 태그는 캐러셀로 바꾸기! */}
+        <Image
+          src="/projectImage/window98Login.avif"
+          alt="윈도우 98 컨셉 프로젝트 소개 이미지"
+          fill={true}
+        ></Image>
+      </div>
+
+      <div className={styles.projectButtonContainer}>
+        <LinkButton type={"link"} href={"https://ssdss.vercel.app/"} />
+        <LinkButton
+          type={"github"}
+          href={"https://github.com/codestates-seb/seb43_main_008"}
+        />
+      </div>
+
+      <div className={styles.projectIntroduce}>
+        <h4 className={styles.projectIntroduceTitle}>간단 소개</h4>
+        <p className={styles.projectIntroduceContent}>
+          Next.js와 TypeScript를 이용해 구현한 팀 프로젝트입니다. Team Lead와
+          Front Lead를 맡았습니다.
+        </p>
+      </div>
+
+      <div className={styles.projectIntroduce}>
+        <h4 className={styles.projectIntroduceTitle}>맡은 역할</h4>
+        <p className={styles.projectIntroduceContent}>
+          프로젝트 초기 세팅, PWA , 소셜 로그인 , 로그아웃 , 회원가입 , 회원정보
+          수정
+        </p>
+      </div>
+
+      <div className={styles.projectIntroduce}>
+        <h4 className={styles.projectIntroduceTitle}>사용 기술</h4>
+        <p className={styles.projectIntroduceContent}>
+          Next.js, TypeScript, PWA, Github Action, Axios, Styled-Components
+        </p>
+      </div>
+
+      <div className={styles.projectIntroduce}>
+        <h4 className={styles.projectIntroduceTitle}>주요 작업</h4>
+        <ul className={styles.projectIntroduceContent}>
+          <li>
+            팀 리드로서 프로젝트 기간 동안 매일 1번의 회의를 주관, 풀스택 경험을
+            이용해 API 요청과 기능 구분에서 발생하는 프론트엔드와 백엔드 간의
+            문제를 해결
+          </li>
+          <li>
+            모바일에 집중한 서비스의 특성을 고려해 서비스에 PWA를 추가해
+            사용자가 네이티브 앱처럼 사용할 수 있도록 구현
+          </li>
+          <li>
+            Axios의 interceptor 기능을 이용해 모든 API 요청에 앞서 인증 토큰과
+            리프레시 토큰의 유효성을 확인하고 이에 따라 서버로부터 값을 받아
+            처리하도록 구현
+          </li>
+          <li>
+            반복되는 배포 과정을 줄이기 위해 Github Action을 통해 CI/CD를 구현
+          </li>
+        </ul>
+      </div>
     </section>
   )
 }

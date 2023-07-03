@@ -6,8 +6,15 @@
 
 .projectTitle {
   font-size: 30px;
-  margin: 24px 0;
+  margin-top: 36px;
+
   font-weight: 700;
+}
+
+.projectPeriod {
+  font-size: 16px;
+  color: #908fa6;
+  margin: 16px 0;
 }
 
 .projectImage {
