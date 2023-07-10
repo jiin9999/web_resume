@@ -1,7 +1,7 @@
 .carouselIamge {
+  position: relative;
   width: 100%;
   height: 500px;
-  position: relative;
 }
 
 @media (max-width: 768px) {

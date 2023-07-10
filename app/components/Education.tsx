@@ -13,7 +13,7 @@ export default function Education() {
 
       <h3 className={styles.educationName}>
         자바 풀스택 과정
-        <span className={styles.educationPlace}>KH정보교육원</span>
+        <span className={styles.educationPlace}>KH 정보교육원</span>
       </h3>
       <p className={styles.educationPeriod}>2022.06 ~ 2022.11</p>
 

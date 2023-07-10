@@ -16,7 +16,7 @@ export default function CoverLetter() {
       </p>
 
       <p className={card.content}>
-        현재는 시장 가설을 빠르게 검증할 수 있는 효율적인 도구인 크로스 플랫폼,
+        현재는 시장 가설을 빠르게 검증할 수 있는 효율적인 도구인 크로스 플랫폼,{" "}
         <Link href="/">React Native에 대해 학습</Link>하고 있습니다. 이를 통해
         개발 리소스를 줄이고 효율성을 높여, 사용자의 요구를 더 빠르고 정확하게
         반영할 수 있게 될 것을 기대하고 있습니다.
