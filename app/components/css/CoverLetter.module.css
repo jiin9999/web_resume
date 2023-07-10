@@ -1,0 +1,22 @@
+.coverLetter {
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.4;
+}
+
+.coverLetterTitle {
+  font-size: 30px;
+  margin-top: 36px;
+  font-weight: 700;
+}
+
+.coverLetterContent {
+  font-size: 22px;
+  font-weight: 200;
+  padding: 16px 0;
+  line-height: 1.6;
+}
+
+.bold {
+  font-weight: 600;
+}

@@ -10,6 +10,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px var(--color-box-shadow);
   padding: 0 24px;
+  z-index: 2;
 }
 
 .LogoContainer {

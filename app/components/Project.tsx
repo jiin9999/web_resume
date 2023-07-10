@@ -12,14 +12,14 @@ export default function Project() {
       <h2 className={styles.project}>프로젝트</h2>
       <h3 className={styles.projectTitle}>Window 98 Todo Web</h3>
       <p className={styles.projectPeriod}>2023.03 ~ </p>
-      {/* <ProjectCarousel
+      <ProjectCarousel
         imageNames={[
           "window98Login",
           "window98Login",
           "window98Login",
           "window98Login",
         ]}
-      /> */}
+      />
 
       <div className={styles.projectButtonContainer}>
         <LinkButton

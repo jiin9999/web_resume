@@ -1,5 +1,11 @@
-.CarouselImageContainer {
+.carouselIamge {
   width: 100%;
-  height: 10vh;
+  height: 500px;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .carouselIamge {
+    height: 300px;
+  }
 }
