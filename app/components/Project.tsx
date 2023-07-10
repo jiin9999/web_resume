@@ -9,8 +9,8 @@ import ProjectCarousel from "./ProjectCarousel"
 export default function Project() {
   return (
     <section className={`${card.cardContainer} ${card.card}`}>
-      <h2 className={styles.project}>프로젝트</h2>
-      <h3 className={styles.projectTitle}>Window 98 Todo Web</h3>
+      <h2 className={card.title}>프로젝트</h2>
+      <h3 className={card.subTitle}>Window 98 Todo Web</h3>
       <p className={styles.projectPeriod}>2023.03 ~ </p>
       <ProjectCarousel
         imageNames={[
@@ -62,11 +62,7 @@ export default function Project() {
         </ul>
       </div>
 
-      {/* <h3>쓰쓰또쓰</h3>
-      <div>2023.05 ~ 2023.05</div> */}
-      {/* <Image src=""></Image> */}
-
-      <h3 className={styles.projectTitle}>쓰레기 재활용 커뮤니티 프로젝트</h3>
+      <h3 className={card.title}>쓰레기 재활용 커뮤니티 프로젝트</h3>
       <p className={styles.projectPeriod}>2023.05 ~ 2023.05</p>
 
       <div className={styles.projectButtonContainer}>
