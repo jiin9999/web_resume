@@ -1,0 +1,15 @@
+.educationName {
+  font-size: 20px;
+  margin-top: 36px;
+  font-weight: 500;
+}
+
+.educationPeriod {
+  font-size: 16px;
+  color: #908fa6;
+  margin: 16px 0;
+}
+.educationPlace {
+  font-weight: 200;
+  margin-left: 8px;
+}

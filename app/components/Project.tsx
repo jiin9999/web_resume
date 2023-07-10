@@ -62,7 +62,7 @@ export default function Project() {
         </ul>
       </div>
 
-      <h3 className={card.title}>쓰레기 재활용 커뮤니티 프로젝트</h3>
+      <h3 className={card.subTitle}>쓰레기 재활용 커뮤니티 프로젝트</h3>
       <p className={styles.projectPeriod}>2023.05 ~ 2023.05</p>
 
       <div className={styles.projectButtonContainer}>

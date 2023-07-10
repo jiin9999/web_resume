@@ -13,6 +13,7 @@ export default function Home() {
       <Introduce />
       <Project />
       <CoverLetter />
+      <Education />
     </main>
   )
 }
