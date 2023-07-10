@@ -1,16 +1,24 @@
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   height: 56px;
   margin: 16px auto;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--color-card-background);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px var(--color-box-shadow);
   padding: 0 24px;
 }
 
+.LogoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .title {
-  font-size: 20px;
-  font-weight: 300;
+  margin-left: 14px;
+  font-size: 18px;
+  font-weight: 200;
 }
