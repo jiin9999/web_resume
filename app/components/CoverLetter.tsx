@@ -17,9 +17,11 @@ export default function CoverLetter() {
 
       <p className={card.content}>
         현재는 시장 가설을 빠르게 검증할 수 있는 효율적인 도구인 크로스 플랫폼,{" "}
-        <Link href="/">React Native에 대해 학습</Link>하고 있습니다. 이를 통해
-        개발 리소스를 줄이고 효율성을 높여, 사용자의 요구를 더 빠르고 정확하게
-        반영할 수 있게 될 것을 기대하고 있습니다.
+        <Link href="https://github.com/jiin9999/rn-practice" target="_blank">
+          React Native에 대해 학습
+        </Link>
+        하고 있습니다. 이를 통해 개발 리소스를 줄이고 효율성을 높여, 사용자의
+        요구를 더 빠르고 정확하게 반영할 수 있게 될 것을 기대하고 있습니다.
       </p>
 
       <h3 className={card.subTitle}>회사와 함께 성장</h3>
@@ -36,11 +38,13 @@ export default function CoverLetter() {
       <p className={card.content}>
         이를 위해, 기술적인 깊이를 더하는 것을 중요하게 생각하며, 실제로
         스터디를 통해{" "}
-        <Link href="/">자바스크립트에 정말로 딥 다이브 해보는 경험</Link>을 하고
-        있습니다. 저의 목표는 지속적인 학습을 통해 배운 것을 서비스에 적용하고,
-        빠르게 변하는 기술 트렌드에 맞춰 회사와 함께 나아가는 것, 이를 통해{" "}
-        <span className={card.bold}>회사와 함께 성장하는 개발자</span>가 되는
-        것입니다.
+        <Link href="https://velog.io/@cji3604/series/DeepDive" target="_blank">
+          자바스크립트에 정말로 딥 다이브 해보는 경험
+        </Link>
+        을 하고 있습니다. 저의 목표는 지속적인 학습을 통해 배운 것을 서비스에
+        적용하고, 빠르게 변하는 기술 트렌드에 맞춰 회사와 함께 나아가는 것, 이를
+        통해 <span className={card.bold}>회사와 함께 성장하는 개발자</span>가
+        되는 것입니다.
       </p>
     </section>
   )
