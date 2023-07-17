@@ -5,7 +5,7 @@
   --color-box-shadow: rgba(0, 0, 0, 0.2);
   --color--button--background: #f2f2f5;
   --color--button--color: #555770;
-  --swiper-theme-color: white !important;
+  --swiper-theme-color: black !important;
 }
 
 [data-theme="dark"] {
@@ -15,7 +15,7 @@
   --color-box-shadow: rgba(255, 255, 255, 0.4);
   --color--button--background: #3c3c3c;
   --color--button--color: white;
-  --swiper-theme-color: black !important;
+  --swiper-theme-color: white !important;
 }
 
 body {

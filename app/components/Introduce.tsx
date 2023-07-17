@@ -25,15 +25,8 @@ export default function Introduce() {
       </p>
 
       <p className={card.content}>
-        다른 직군과의 협업을 중시하며, 소통을 위해 개발뿐만 아니라{" "}
-        <Link href="/">기획</Link>과{" "}
-        <Link
-          href="https://velog.io/@cji3604/%EA%BD%83%EB%82%B4%EB%9E%91%EB%8B%98%EC%9D%98-%ED%94%BC%EA%B7%B8%EB%A7%88-%EC%8A%A4%ED%84%B0%EB%94%94-%ED%9B%84%EA%B8%B0"
-          target="_blank"
-        >
-          디자인
-        </Link>
-        에 대해서도 학습하고 있습니다. 협업을 통해 개인이라는 한계를 넘어
+        다른 직군과의 협업을 중시하며, 소통을 위해 개발뿐만 아니라 기획과
+        디자인에 대해서도 학습하고 있습니다. 협업을 통해 개인이라는 한계를 넘어
         시너지를 만들 수 있다고 믿습니다.
       </p>
 

@@ -1,7 +1,5 @@
-import Link from "next/link"
 import styles from "./css/Project.module.css"
 import card from "./css/Card.module.css"
-import Image from "next/image"
 
 import LinkButton from "./LinkButton"
 import ProjectCarousel from "./ProjectCarousel"
@@ -14,11 +12,13 @@ export default function Project() {
       <p className={styles.projectPeriod}>2023.03 ~ </p>
       <ProjectCarousel
         imageNames={[
-          "window98Login",
-          "window98Login",
-          "window98Login",
-          "window98Login",
+          "windows98Login",
+          "windows98Todo",
+          "windows98Weather",
+          "windows98Logout",
+          "windows98Delete",
         ]}
+        mobile={false}
       />
 
       <div className={styles.projectButtonContainer}>
@@ -35,7 +35,8 @@ export default function Project() {
       <div className={styles.projectIntroduce}>
         <h4 className={styles.projectIntroduceTitle}>간단 소개</h4>
         <p className={styles.projectIntroduceContent}>
-          React와 TypeScript를 이용해 구현한 개인 프로젝트입니다. ()
+          React와 TypeScript를 이용해 구현한 개인 프로젝트입니다. (로그인시 입력
+          값에 따라 컬렉션 생성)
         </p>
       </div>
 
@@ -64,6 +65,10 @@ export default function Project() {
 
       <h3 className={card.subTitle}>쓰레기 재활용 커뮤니티 프로젝트</h3>
       <p className={styles.projectPeriod}>2023.05 ~ 2023.05</p>
+      <ProjectCarousel
+        imageNames={["ssdssLogin", "ssdssMemberEdit", "ssdssRegister"]}
+        mobile={true}
+      />
 
       <div className={styles.projectButtonContainer}>
         <LinkButton type={"link"} href={"https://ssdss.vercel.app/"} />
