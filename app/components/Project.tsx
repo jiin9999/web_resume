@@ -66,7 +66,12 @@ export default function Project() {
       <h3 className={card.subTitle}>쓰레기 재활용 커뮤니티 프로젝트</h3>
       <p className={styles.projectPeriod}>2023.05 ~ 2023.05</p>
       <ProjectCarousel
-        imageNames={["ssdssLogin", "ssdssMemberEdit", "ssdssRegister"]}
+        imageNames={[
+          "ssdssLogin",
+          "ssdssMemberEdit",
+          "ssdssRegister",
+          "ssdssComment",
+        ]}
         mobile={true}
       />
 
