@@ -15,9 +15,8 @@ export default function Introduce() {
       <p className={card.content}>
         자바 기반의 풀스택 과정 중, 프론트엔드에 빠져 JavaScript, React,
         Next.js를 이용한 프로젝트들을 진행했습니다. 최근에는 빠르게 제품을
-        만들고 시장에서 테스트하는
-        <Link href="/"> MVP 개발</Link>과 적은 리소스로 높은 생산성을 가질 수
-        있는 크로스 플랫폼인{" "}
+        만들고 시장에서 테스트하는 MVP 개발과 적은 리소스로 높은 생산성을 가질
+        수 있는 크로스 플랫폼인{" "}
         <Link href="https://github.com/jiin9999/rn-practice" target="_blank">
           React-Native
         </Link>
