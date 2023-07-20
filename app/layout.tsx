@@ -7,6 +7,8 @@ const globalFont = localFont({
 })
 
 export const metadata = {
+  title: "프론트엔드 개발자 천지인 이력서",
+  description: "프론트엔드 개발자 천지인 이력서입니다.",
   openGraph: {
     title: "프론트엔드 개발자 천지인 이력서",
     description: "프론트엔드 개발자 천지인의 이력서 웹사이트입니다.",
