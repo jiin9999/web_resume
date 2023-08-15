@@ -31,6 +31,7 @@ export default function Introduce() {
 
       <div className={styles.buttonContainer}>
         <button>cji3604@gmail.com</button>
+        <button>010-5591-1336</button>
         <LinkButton type={"blog"} href={"https://velog.io/@cji3604"} />
         <LinkButton type={"github"} href={"https://github.com/jiin9999"} />
       </div>
